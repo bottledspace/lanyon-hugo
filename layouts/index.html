@@ -19,7 +19,7 @@
   {{ else }}
   <span class="pagination-item older">Older</span>
   {{ end }}
-
+  <a class="pagination-item" href="/post">Posts</a>
   {{ if $paginator.HasPrev }}
   <a class="pagination-item newer" href="{{ $paginator.Prev.URL }}">Newer</a>
   {{ else }}
